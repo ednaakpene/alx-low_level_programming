@@ -8,14 +8,13 @@
 int main(void)
 
 {
-	char i;
+	char n;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (n = 0; n < 10; n++)
+
 	{
-	if (i != 'e' && i != 'q')
-	putchar(i);
+	putchar(n);
 	}
-
 	putchar('\n');
 
 	return (0);
