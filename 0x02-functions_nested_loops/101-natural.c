@@ -20,4 +20,5 @@ int i;
 		sum = sum + i;
 	}
 	printf("%d\n", sum);
+	return (0);
 }
