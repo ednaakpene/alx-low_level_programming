@@ -37,13 +37,7 @@ for (k = 0; k < e; k++, e--)
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-int overflow = 0;
-int e = 0;
-int k = 0;
-int digits = 0;
-int val1 = 0;
-int val2 = 0;
-int temp_tot = 0;
+int e = 0, k = 0, dig = 0, val1 = 0, val2 = 0, temp_tot = 0, overflow = 0;
 
 	while (*(n1 + e) != '\0')
 	e++;
@@ -69,16 +63,16 @@ while (k >= 0 || e >= 0 || overflow == 1)
 	overflow = 1;
 	else
 	overflow = 0;
-	if (digits >= (size_r - 1))
+	if (dig >= (size_r - 1))
 	return (0);
-	*(r + digits) = (temp_tot % 10) + '0';
-	digits++;
+	*(r + dig) = (temp_tot % 10) + '0';
+	dig++;
 	k--;
 	e--;
 	}
-if (digits == size_r)
+if (dig == size_r)
 	return (0);
-*(r + digits) = '\0';
+*(r + dig) = '\0';
 rev_string(r);
 return (r);
 }
