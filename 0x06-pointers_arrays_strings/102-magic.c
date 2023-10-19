@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - function name
+ * Return: return 0
+ */
 
 int main(void)
 {
