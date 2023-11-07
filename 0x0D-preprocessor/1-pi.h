@@ -1,19 +1,5 @@
-#include "1-pi.h"
-#include "1-pi.h"
-#include <stdio.h>
+#ifndef PI_H
+#define PI_H
 
-/**
- * main - entry point
- * Return - return 0
- */
-
-int main(void)
-{
-	float a;
-	float r;
-
-	r = 98;
-	a = PI * r * r;
-	printf("%.3f\n", a);
-	return (0);
-}
+#define PI 3.14159265359
+#endif
