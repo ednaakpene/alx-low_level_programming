@@ -29,7 +29,7 @@ if (!separator)
 {
 printf("%s", str);
 }
-else if (e == 0 && separator)
+else if (e == 0)
 {
 	printf("%s", str);
 }
