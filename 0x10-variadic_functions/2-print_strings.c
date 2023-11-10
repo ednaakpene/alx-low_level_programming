@@ -38,8 +38,8 @@ else
 	printf("%s%s", separator, str);
 }
 }
-va_end(strings);
 printf("\n");
+va_end(strings);
 }
 
 
