@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-  * add_note_end - function that adds new node to the list(list_t) end
+  * add_node_end - function that adds new node to the list(list_t) end
   * @head: node head
  * @str: string parameter
  *Return: return neww address
